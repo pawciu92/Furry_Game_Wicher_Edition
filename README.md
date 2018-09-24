@@ -8,3 +8,6 @@ Mini Game working in browser. In game our character is the geralt witcher, He mo
 - :arrow_backward: move left
 - :arrow_forward: move right
 
+# Technologies:
+- JavaScript
+- HTML5
