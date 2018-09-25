@@ -85,7 +85,7 @@ function Game(){
     this.checkCoinCollision = function(){
         if(this.furry.x == this.coin.x && this.furry.y == this.coin.y){
             document.querySelector(".coin").classList.remove("coin");
-            score.innerText = Number(score.innerText) + 1;
+            score.innerText = Number(score.innerText) + 10;
             this.coin = new Coin();
             this.showCoin();
         }

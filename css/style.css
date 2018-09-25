@@ -5,6 +5,9 @@
 body {
     margin: 0;
     padding: 0;
+    background-image:url('../images/wildHunt.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 section#score {
@@ -18,7 +21,7 @@ section#score {
 }
 
 #board  > div {    
-  border: 1px solid black;
+  border: 1px solid silver;
   float: left;
   width: 64px;
   height: 64px;
@@ -31,9 +34,9 @@ section#score div {
   text-align: center;
   padding: 0.5em;
   background-color: rgba(211,211,211, 0.75);
-  border: 1px solid lightgray;
+  border: 1px solid silver;
   border-radius: 1px;
-  box-shadow: 1px 1px 5px 1px lightgray;
+  box-shadow: 1px 1px 5px 1px silver;
   margin: 1em auto;
 }
 
@@ -68,7 +71,7 @@ section#over pre {
   text-align: center;
   font-size: 10px;
   font-weight: bolder;
-  color: brown;
+  color: ;
 }
 
 .invisible {
